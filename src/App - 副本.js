@@ -5,7 +5,7 @@ class LifeCycle extends React.Component {
     console.log("Initial render1");
     console.log("constructor2");
     this.state = {
-      str: "hello1"
+      str: "hello18"
     };
   }
 
