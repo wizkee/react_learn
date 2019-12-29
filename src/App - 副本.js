@@ -2,7 +2,7 @@ import React from 'react';
 class LifeCycle extends React.Component {
   constructor(props) {
     super(props);
-    console.log("Initial render1");
+    console.log("Initial render1   v2");
     console.log("constructor2");
     this.state = {
       str: "hello18"

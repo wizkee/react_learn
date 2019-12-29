@@ -10,7 +10,7 @@ const HookB = lazy(() => import('./componments/HookB'));
 function App() {
   return (
     <div className="app">
-      <h1 className="coldpedia-title">COLDPEDIA</h1>
+      <h1 className="coldpedia-title">COLDPEDIA v2</h1>
    
         <Suspense>
           <Router>
