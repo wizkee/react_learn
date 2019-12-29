@@ -23,7 +23,7 @@ class LifeCycle extends React.Component {
   }
 
   shouldComponentUpdate(nextProps,nextState) {
-    console.log("shouldComponentUpdate6");
+    console.log("shouldComponentUpdate6啊啊啊");
     console.log('nextState', nextState)
     return nextProps.num>50?true:false
     // return true; // 记得要返回true
