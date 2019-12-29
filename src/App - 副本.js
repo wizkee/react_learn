@@ -19,7 +19,7 @@ class LifeCycle extends React.Component {
 
   componentWillReceiveProps(nextProps) {
 
-    console.log("componentWillReceiveProps5嘻嘻嘻");
+    console.log("componentWillReceiveProps5嘻嘻嘻222");
   }
 
   shouldComponentUpdate(nextProps,nextState) {
