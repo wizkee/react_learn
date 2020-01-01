@@ -5,7 +5,7 @@ export default class TwentySix extends React.Component {
   render() {
     return (
       <div>
-        aaaa
+        aaaaaaa
       </div>
     );
   }
