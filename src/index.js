@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.js';
-// import { BrowserRouter } from 'react-router-dom'
-// import * as serviceWorker from './serviceWorker';
+// import { BrowserRouter } from 'react-router-dom'v2
+// import * as serviceWorker from './serviceWorker';v2
 
 
 // ReactDOM.render(<App app="app_test"/>, document.getElementById('root'));

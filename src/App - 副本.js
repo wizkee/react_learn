@@ -2,10 +2,10 @@ import React from 'react';
 class LifeCycle extends React.Component {
   constructor(props) {
     super(props);
-    console.log("Initial render1");
+    console.log("Initial render1   v2");
     console.log("constructor2");
     this.state = {
-      str: "hello1"
+      str: "hello18"
     };
   }
 
@@ -19,11 +19,11 @@ class LifeCycle extends React.Component {
 
   componentWillReceiveProps(nextProps) {
 
-    console.log("componentWillReceiveProps5");
+    console.log("componentWillReceiveProps5嘻嘻嘻222");
   }
 
   shouldComponentUpdate(nextProps,nextState) {
-    console.log("shouldComponentUpdate6");
+    console.log("shouldComponentUpdate6啊啊啊");
     console.log('nextState', nextState)
     return nextProps.num>50?true:false
     // return true; // 记得要返回true
